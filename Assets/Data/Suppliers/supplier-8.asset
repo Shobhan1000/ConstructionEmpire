@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416cd7f8b7add9b4f9d4c233a69cbd6d, type: 3}
+  m_Name: supplier-8
+  m_EditorClassIdentifier: 
+  Profile:
+    SchemaVersion: 1
+    Id: supplier-8
+    Name: Anchor Hardware & Materials
+    Personality: National hardware range and predictable deliveries.
+    Reliability: 0.98
+    Relationship: 0.5
+    Offers:
+    - MaterialId: concrete
+      BasePrice: 126
+      CurrentPrice: 126
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: cement
+      BasePrice: 8.4
+      CurrentPrice: 8.4
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: sand
+      BasePrice: 47.25
+      CurrentPrice: 47.25
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: gravel
+      BasePrice: 42
+      CurrentPrice: 42
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: steel
+      BasePrice: 892.5
+      CurrentPrice: 892.5
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: timber
+      BasePrice: 12.600000000000001
+      CurrentPrice: 12.600000000000001
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: bricks
+      BasePrice: 1.26
+      CurrentPrice: 1.26
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: glass
+      BasePrice: 63
+      CurrentPrice: 63
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: drywall
+      BasePrice: 18.900000000000002
+      CurrentPrice: 18.900000000000002
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: insulation
+      BasePrice: 10.5
+      CurrentPrice: 10.5
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: roofing
+      BasePrice: 25.200000000000003
+      CurrentPrice: 25.200000000000003
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: pipe
+      BasePrice: 8.4
+      CurrentPrice: 8.4
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: cable
+      BasePrice: 3.1500000000000004
+      CurrentPrice: 3.1500000000000004
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: fixtures
+      BasePrice: 78.75
+      CurrentPrice: 78.75
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: paint
+      BasePrice: 12.600000000000001
+      CurrentPrice: 12.600000000000001
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: flooring
+      BasePrice: 31.5
+      CurrentPrice: 31.5
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8
+    - MaterialId: site-supplies
+      BasePrice: 26.25
+      CurrentPrice: 26.25
+      Capacity: 20000
+      Reserved: 0
+      Quality: 0.946
+      Volatility: 0.012000000000000002
+      LeadHours: 8

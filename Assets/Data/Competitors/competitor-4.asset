@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0deee2491b70c604da16856902daaedb, type: 3}
+  m_Name: competitor-4
+  m_EditorClassIdentifier: 
+  Data:
+    SchemaVersion: 1
+    Id: competitor-4
+    CompanyName: Exactspan Projects
+    Personality: Pursues technically demanding fit-outs where focused expertise commands
+      a premium.
+    Archetype: 3
+    PriceMultiplier: 1.12
+    Quality: 0.9
+    DurationMultiplier: 0.95
+    Reputation: 85
+    Experience: 0.6
+    ClientRelationship: 0.4
+    Certifications: 0.65
+    MarketFit: 0.6
+    HomeRegion: Westmere
+    Specialty: Hospitality
+    RegionalStrength: 0.1
+    CategoryStrength: 0.8

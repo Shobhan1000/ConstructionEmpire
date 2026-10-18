@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b801dacf886064db70c31abc6b4b09, type: 3}
+  m_Name: starter-1
+  m_EditorClassIdentifier: 
+  Template: {fileID: 11400000, guid: cf3aac901099fee45bb85a35565e929a, type: 2}
+  Data:
+    SchemaVersion: 1
+    Id: starter-1
+    TemplateId: template-1
+    Title: House renovation
+    BuildingType: Residential
+    Region: Westmere
+    Location: Westmere district 1
+    ClientId: client-1
+    ClientName: Mara and Ellis Fenwick
+    Size: 85
+    EstimatedDurationHours: 240
+    Budget: 48000
+    DeadlineHour: 720
+    QualityRequirement: 0
+    Requirements:
+      LaborHours: 600
+      MaterialUnits: 120
+      EquipmentHours: 40
+      SubcontractorHours: 60
+    ContractValue: 0
+    PenaltyPerLateDay: 150
+    PaymentSchedule: To be agreed on contract award
+    Status: 0
+    SubmittedBidId: 
+    SubmittedBidAmount: 0

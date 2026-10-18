@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b801dacf886064db70c31abc6b4b09, type: 3}
+  m_Name: starter-2
+  m_EditorClassIdentifier: 
+  Template: {fileID: 11400000, guid: 73c8d6bc4c2dfca4ca83a7425a1d596a, type: 2}
+  Data:
+    SchemaVersion: 1
+    Id: starter-2
+    TemplateId: template-2
+    Title: Small warehouse
+    BuildingType: Warehouse
+    Region: Westmere
+    Location: Westmere district 2
+    ClientId: client-2
+    ClientName: Morrow Bay Logistics
+    Size: 250
+    EstimatedDurationHours: 480
+    Budget: 125000
+    DeadlineHour: 1440
+    QualityRequirement: 0
+    Requirements:
+      LaborHours: 1400
+      MaterialUnits: 380
+      EquipmentHours: 150
+      SubcontractorHours: 100
+    ContractValue: 0
+    PenaltyPerLateDay: 400
+    PaymentSchedule: To be agreed on contract award
+    Status: 0
+    SubmittedBidId: 
+    SubmittedBidAmount: 0

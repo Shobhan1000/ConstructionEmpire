@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416cd7f8b7add9b4f9d4c233a69cbd6d, type: 3}
+  m_Name: supplier-7
+  m_EditorClassIdentifier: 
+  Profile:
+    SchemaVersion: 1
+    Id: supplier-7
+    Name: Northbridge Building Supply
+    Personality: Local general supplies with dependable service.
+    Reliability: 0.96
+    Relationship: 0.5
+    Offers:
+    - MaterialId: concrete
+      BasePrice: 120
+      CurrentPrice: 120
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: cement
+      BasePrice: 8
+      CurrentPrice: 8
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: sand
+      BasePrice: 45
+      CurrentPrice: 45
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: gravel
+      BasePrice: 40
+      CurrentPrice: 40
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: steel
+      BasePrice: 850
+      CurrentPrice: 850
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: timber
+      BasePrice: 12
+      CurrentPrice: 12
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: bricks
+      BasePrice: 1.2
+      CurrentPrice: 1.2
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: glass
+      BasePrice: 60
+      CurrentPrice: 60
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: drywall
+      BasePrice: 18
+      CurrentPrice: 18
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: insulation
+      BasePrice: 10
+      CurrentPrice: 10
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: roofing
+      BasePrice: 24
+      CurrentPrice: 24
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: pipe
+      BasePrice: 8
+      CurrentPrice: 8
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: cable
+      BasePrice: 3
+      CurrentPrice: 3
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: fixtures
+      BasePrice: 75
+      CurrentPrice: 75
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: paint
+      BasePrice: 12
+      CurrentPrice: 12
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: flooring
+      BasePrice: 30
+      CurrentPrice: 30
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4
+    - MaterialId: site-supplies
+      BasePrice: 25
+      CurrentPrice: 25
+      Capacity: 10000
+      Reserved: 0
+      Quality: 0.942
+      Volatility: 0.014000000000000004
+      LeadHours: 4

@@ -1,0 +1,10 @@
+{
+  "name": "ConstructionEmpire.Definitions",
+  "rootNamespace": "ConstructionEmpire.Definitions",
+  "references": [
+    "ConstructionEmpire.Data"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

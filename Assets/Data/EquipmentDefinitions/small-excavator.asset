@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a9b110b72c33441bdb179a3d3dbf1c, type: 3}
+  m_Name: small-excavator
+  m_EditorClassIdentifier: 
+  DefinitionId: small-excavator
+  DisplayName: Small Excavator
+  EquipmentType: 1
+  PurchasePrice: 38000
+  RentalPricePerDay: 160
+  MaintenanceCost: 250
+  FuelCapacity: 50
+  FuelPerHour: 4
+  CostPerHour: 35
+  ProductivityMultiplier: 1

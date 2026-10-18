@@ -1,0 +1,18 @@
+{
+  "name": "ConstructionEmpire.Editor",
+  "rootNamespace": "ConstructionEmpire.Editor",
+  "references": [
+    "ConstructionEmpire.Data",
+    "ConstructionEmpire.Systems",
+    "ConstructionEmpire.Definitions",
+    "ConstructionEmpire.Bootstrap",
+    "ConstructionEmpire.UI",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

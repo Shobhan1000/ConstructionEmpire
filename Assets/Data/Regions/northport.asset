@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8812023a79173641a8a70aa90c3b622, type: 3}
+  m_Name: northport
+  m_EditorClassIdentifier: 
+  Data:
+    SchemaVersion: 1
+    Id: northport
+    Name: Northport
+    X: 270
+    Y: 30
+    ReputationThreshold: 65
+    CapitalThreshold: 350000
+    PriceMultiplier: 1.2
+    StartingRegion: 0
+    UnlockRule: 0
+    ProjectTypes:
+    - Warehouse
+    - Office
+    CompetitorIds:
+    - competitor-2
+    - competitor-3
+    - competitor-4
+    SupplierNames:
+    - Northport Trade Supplies
+    DepotNames:
+    - Northport Equipment Depot

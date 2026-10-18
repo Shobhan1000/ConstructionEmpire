@@ -1,0 +1,11 @@
+{
+  "name": "ConstructionEmpire.UI",
+  "rootNamespace": "ConstructionEmpire.UI",
+  "references": [
+    "ConstructionEmpire.Data",
+    "ConstructionEmpire.Systems",
+    "ConstructionEmpire.Definitions",
+    "ConstructionEmpire.Bootstrap"
+  ],
+  "autoReferenced": true
+}

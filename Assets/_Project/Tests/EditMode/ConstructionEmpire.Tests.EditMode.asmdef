@@ -1,0 +1,19 @@
+{
+  "name": "ConstructionEmpire.Tests.EditMode",
+  "rootNamespace": "ConstructionEmpire.Tests.EditMode",
+  "references": [
+    "ConstructionEmpire.Data",
+    "ConstructionEmpire.Systems",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0deee2491b70c604da16856902daaedb, type: 3}
+  m_Name: competitor-1
+  m_EditorClassIdentifier: 
+  Data:
+    SchemaVersion: 1
+    Id: competitor-1
+    CompanyName: Leanline Construction
+    Personality: Wins on disciplined purchasing and lean overheads; rarely leads
+      with premium finishes.
+    Archetype: 0
+    PriceMultiplier: 0.82
+    Quality: 0.45
+    DurationMultiplier: 1.1
+    Reputation: 45
+    Experience: 0.6
+    ClientRelationship: 0.4
+    Certifications: 0.65
+    MarketFit: 0.6
+    HomeRegion: Westmere
+    Specialty: Hospitality
+    RegionalStrength: 0.1
+    CategoryStrength: 0.1

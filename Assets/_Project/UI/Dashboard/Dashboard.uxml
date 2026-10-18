@@ -1,0 +1,60 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="Dashboard.uss" />
+    <ui:VisualElement name="management-app" class="management-app">
+        <ui:VisualElement class="sidebar">
+            <ui:Label text="CONSTRUCTION / EMPIRE" class="brand" />
+            <ui:Label name="company-name" text="Construction Empire" class="sidebar-company" />
+            
+            <ui:ScrollView name="navigation" class="navigation" />
+            <ui:Label name="office-label" class="sidebar-footer" />
+        </ui:VisualElement>
+        <ui:VisualElement class="workspace">
+            <ui:VisualElement class="topbar">
+                <ui:Label name="screen-title" text="Company overview" class="page-title" />
+                <ui:VisualElement class="spacer" />
+                <ui:Label name="clock" class="clock" />
+                <ui:VisualElement name="time-controls" class="time-controls" />
+            </ui:VisualElement>
+            <ui:VisualElement name="metrics" class="metrics" />
+            <ui:ScrollView class="workspace-scroll">
+                <ui:VisualElement name="tutorial-host" />
+                <ui:VisualElement name="dashboard-screen" class="screen"><ui:VisualElement name="dashboard-actions" class="dashboard-actions" />
+                    <ui:VisualElement class="card operations-card"><ui:Label text="Operations watch" class="card-title" /><ui:Label text="Live thresholds · warnings resolve when conditions improve" class="muted" /><ui:VisualElement name="proactive-alerts" /></ui:VisualElement>
+                    <ui:VisualElement class="section-heading">
+                        <ui:Label text="Your company, at a glance" class="section-title" />
+                        <ui:Label text="Live operations · current session" class="muted" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="dashboard-row">
+                        <ui:VisualElement class="card wide-card">
+                            <ui:VisualElement class="card-heading"><ui:Label text="Active projects" class="card-title" /><ui:Label name="project-count-label" class="muted" /></ui:VisualElement>
+                            <ui:VisualElement class="project-table-header table-row"><ui:Label text="PROJECT / CLIENT" class="project-name-cell" /><ui:Label text="PROGRESS" class="progress-cell" /><ui:Label text="EST. PROFIT" class="cell" /><ui:Label text="DEADLINE" class="cell" /><ui:Label text="STATUS" class="cell" /></ui:VisualElement>
+                            <ui:VisualElement name="active-projects" />
+                            <ui:Label name="active-empty" text="Your next project starts here. Review an opportunity and prepare a bid." class="empty-state" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="card narrow-card">
+                            <ui:Label text="Financial overview" class="card-title" />
+                            <ui:Label text="Session totals · GBP" class="muted" />
+                            <ui:VisualElement name="financial-chart" class="financial-chart" />
+                            <ui:Label text="Expenses include incurred construction costs. Cash flow is the change in available cash." class="footnote" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="dashboard-row">
+                        <ui:VisualElement class="card wide-card"><ui:Label text="Project opportunities" class="card-title" /><ui:VisualElement name="opportunities" /><ui:Label text="Fresh opportunities arrive with market cycles. Grow your company to unlock larger work profiles, or explore regional leads on the World Map." class="footnote" /></ui:VisualElement>
+                        <ui:VisualElement class="card narrow-card"><ui:Label text="Activity &amp; alerts" class="card-title" /><ui:Label name="alerts-empty" text="No alerts. Your workspace is ready." class="empty-state" /><ui:VisualElement name="alerts" /></ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="project-detail-screen" class="screen hidden">
+                    <ui:VisualElement class="card"><ui:Label name="detail-title" text="Select a project" class="section-title" /><ui:Label name="detail-identity" class="detail-contract" /><ui:VisualElement name="detail-summary" class="detail-summary" /><ui:Label name="detail-next" class="next-action" /><ui:VisualElement name="detail-actions" class="action-row" /></ui:VisualElement>
+                    <ui:Foldout text="Site visual overview" value="false" class="site-foldout"><ui:VisualElement name="detail-site-visual" /></ui:Foldout><ui:VisualElement name="detail-tabs" class="tab-bar" />
+                    <ui:VisualElement name="detail-content" class="card" />
+                </ui:VisualElement>
+                <ui:VisualElement name="secondary-screen" class="screen hidden"><ui:VisualElement name="secondary-content" class="card" /></ui:VisualElement>
+            </ui:ScrollView>
+            <ui:Label name="feedback" text="Ready. Choose an opportunity to prepare your first bid." class="feedback" />
+        </ui:VisualElement>
+        <ui:VisualElement name="confirmation" class="modal-overlay hidden">
+            <ui:VisualElement class="modal-card"><ui:Label text="Review your decision" class="section-title" /><ui:Label name="confirmation-message" class="modal-message" /><ui:VisualElement class="action-row"><ui:Button name="confirm-cancel" text="Cancel" /><ui:Button name="confirm-submit" text="Confirm" class="primary" /></ui:VisualElement></ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

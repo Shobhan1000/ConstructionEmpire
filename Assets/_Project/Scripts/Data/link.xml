@@ -1,0 +1,17 @@
+<linker>
+  <assembly fullname="ConstructionEmpire.Data">
+    <type fullname="ConstructionEmpire.Data.Save.SaveDataBase" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Save.SaveGameData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Company.CompanyData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Time.GameTimeData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Bidding.ProjectData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Bidding.RequirementProfile" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.EmployeeData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.EquipmentRuntimeData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.MaterialInventoryData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.MaterialQuantity" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.CrewData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.ConstructionPhaseRuntimeData" preserve="all" />
+    <type fullname="ConstructionEmpire.Data.Construction.EquipmentRequirement" preserve="all" />
+  </assembly>
+</linker>

@@ -1,0 +1,12 @@
+{
+  "name": "ConstructionEmpire.Bootstrap",
+  "rootNamespace": "ConstructionEmpire.Bootstrap",
+  "references": [
+    "ConstructionEmpire.Data",
+    "ConstructionEmpire.Systems",
+    "ConstructionEmpire.Definitions"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

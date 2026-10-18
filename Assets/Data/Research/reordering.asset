@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b1af5f03aebac43b7e59fa2e67bfa3, type: 3}
+  m_Name: reordering
+  m_EditorClassIdentifier: 
+  Data:
+    Id: reordering
+    Name: Stock Watch
+    Description: Enable bounded automatic reordering when inventory and incoming
+      orders fall below remaining demand thresholds.
+    Category: Automation
+    Cost: 4000
+    DurationHours: 16
+    MinimumCompanyLevel: 1
+    PrerequisiteIds:
+    - supplier-negotiation
+    Effects:
+    - Kind: 3
+      Amount: 0.25
+  Prerequisites:
+  - {fileID: 11400000, guid: 3292a0913f819f743b8b3dda27b82d20, type: 2}

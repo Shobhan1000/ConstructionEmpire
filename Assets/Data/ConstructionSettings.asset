@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cca7d5d6a4fb045a077f74cc8ceb1a, type: 3}
+  m_Name: ConstructionSettings
+  m_EditorClassIdentifier: 
+  CrewEfficiency:
+    UnmatchedTradeMultiplier: 0.5
+    SkillFloor: 0.5
+    ExperienceBonusPerYear: 0.02
+    MaximumExperienceBonus: 0.3
+    NoSupervisorMultiplier: 0.8
+    SupervisorSkillBonus: 0.2
+    MaximumFatiguePenalty: 0.8

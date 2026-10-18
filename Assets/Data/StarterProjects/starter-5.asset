@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b801dacf886064db70c31abc6b4b09, type: 3}
+  m_Name: starter-5
+  m_EditorClassIdentifier: 
+  Template: {fileID: 11400000, guid: f0b1d100d9d76014f936b1829510dc9d, type: 2}
+  Data:
+    SchemaVersion: 1
+    Id: starter-5
+    TemplateId: template-5
+    Title: Residential extension
+    BuildingType: Residential
+    Region: Westmere
+    Location: Westmere district 5
+    ClientId: client-5
+    ClientName: Priya Bellamy
+    Size: 45
+    EstimatedDurationHours: 400
+    Budget: 72000
+    DeadlineHour: 1200
+    QualityRequirement: 0
+    Requirements:
+      LaborHours: 1100
+      MaterialUnits: 220
+      EquipmentHours: 90
+      SubcontractorHours: 85
+    ContractValue: 0
+    PenaltyPerLateDay: 250
+    PaymentSchedule: To be agreed on contract award
+    Status: 0
+    SubmittedBidId: 
+    SubmittedBidAmount: 0

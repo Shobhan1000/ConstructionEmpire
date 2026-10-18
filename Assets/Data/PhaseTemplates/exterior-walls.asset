@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe37df06994c6347a756e5f5b6cc1b0, type: 3}
+  m_Name: exterior-walls
+  m_EditorClassIdentifier: 
+  PhaseId: exterior-walls
+  DisplayName: Exterior Walls
+  DurationHours: 8
+  LaborHours: 48
+  CompatibleTrades: 02000000
+  EquipmentRequirements: []
+  MaterialRequirements:
+  - MaterialId: bricks
+    Quantity: 80
+  PrerequisiteIds:
+  - framing
+  Cost: 400
+  QualityImpact: 1
+  Risk: 0.05

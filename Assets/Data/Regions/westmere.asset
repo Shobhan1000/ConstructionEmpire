@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8812023a79173641a8a70aa90c3b622, type: 3}
+  m_Name: westmere
+  m_EditorClassIdentifier: 
+  Data:
+    SchemaVersion: 1
+    Id: westmere
+    Name: Westmere
+    X: 30
+    Y: 40
+    ReputationThreshold: 0
+    CapitalThreshold: 0
+    PriceMultiplier: 1
+    StartingRegion: 1
+    UnlockRule: 0
+    ProjectTypes:
+    - Residential
+    - Warehouse
+    - Hospitality
+    - Office
+    CompetitorIds:
+    - competitor-1
+    - competitor-2
+    - competitor-3
+    - competitor-4
+    - competitor-5
+    SupplierNames:
+    - Westmere Trade Supplies
+    DepotNames:
+    - Westmere Equipment Depot

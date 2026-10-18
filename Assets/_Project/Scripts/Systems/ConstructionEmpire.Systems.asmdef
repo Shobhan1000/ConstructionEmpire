@@ -1,0 +1,9 @@
+{
+  "name": "ConstructionEmpire.Systems",
+  "rootNamespace": "ConstructionEmpire.Systems",
+  "references": ["ConstructionEmpire.Data"],
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

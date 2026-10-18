@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b801dacf886064db70c31abc6b4b09, type: 3}
+  m_Name: starter-3
+  m_EditorClassIdentifier: 
+  Template: {fileID: 11400000, guid: 0f7ab88577b67ae46b456004f54567b8, type: 2}
+  Data:
+    SchemaVersion: 1
+    Id: starter-3
+    TemplateId: template-3
+    Title: Restaurant fit-out
+    BuildingType: Hospitality
+    Region: Westmere
+    Location: Westmere district 3
+    ClientId: client-3
+    ClientName: Juniper Table Restaurants
+    Size: 120
+    EstimatedDurationHours: 320
+    Budget: 85000
+    DeadlineHour: 960
+    QualityRequirement: 1
+    Requirements:
+      LaborHours: 950
+      MaterialUnits: 230
+      EquipmentHours: 55
+      SubcontractorHours: 120
+    ContractValue: 0
+    PenaltyPerLateDay: 300
+    PaymentSchedule: To be agreed on contract award
+    Status: 0
+    SubmittedBidId: 
+    SubmittedBidAmount: 0

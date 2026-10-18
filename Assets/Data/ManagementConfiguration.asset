@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a81502fa58f343876951e020f06e5, type: 3}
+  m_Name: ManagementConfiguration
+  m_EditorClassIdentifier: 
+  Projects:
+  - {fileID: 11400000, guid: 9f42e76cc18f21f40ba7472876ad6b30, type: 2}
+  - {fileID: 11400000, guid: 9dc67ec739d6bbf4b964ec4fced95046, type: 2}
+  - {fileID: 11400000, guid: d2ef317a56909e0478ece67b5de2451c, type: 2}
+  - {fileID: 11400000, guid: 8adbfa417b695e74cbd7e7530a30f403, type: 2}
+  - {fileID: 11400000, guid: eaf2f2260ba53c8448469c0dba2f7e20, type: 2}
+  Employees:
+  - {fileID: 11400000, guid: a08957bbfe3df2343939521c253ac15a, type: 2}
+  - {fileID: 11400000, guid: 7ddb8505b29c9814ea14f8a50ba958ef, type: 2}
+  - {fileID: 11400000, guid: e7c591313f214fd458bd0cba9af8ef23, type: 2}
+  - {fileID: 11400000, guid: a9589f79126ba744eb2869231161f63c, type: 2}
+  - {fileID: 11400000, guid: b22def9179eddd24c884068ec0c8ad7a, type: 2}
+  - {fileID: 11400000, guid: 6f08e4df0f88adf4f9bf2a0ac174aee5, type: 2}
+  Equipment:
+  - {fileID: 11400000, guid: a64a50d599a618741b3fb1b83a2f3543, type: 2}
+  - {fileID: 11400000, guid: 0625baf4105aa004f82571a306da9829, type: 2}
+  Competitors:
+  - {fileID: 11400000, guid: fb16b3d34a90749469e403b3bea9993f, type: 2}
+  - {fileID: 11400000, guid: 528c6463ec6123342afecb7f968552e3, type: 2}
+  - {fileID: 11400000, guid: 2e6e6ec86489b6243beac9eea33607c6, type: 2}
+  - {fileID: 11400000, guid: 76c205aa79c09cc4497aec6ce73afabf, type: 2}
+  - {fileID: 11400000, guid: 5023d0217cca69e4e93a01a907f63275, type: 2}
+  DefaultPhases:
+  - {fileID: 11400000, guid: 247dd3fd179614b4c9c27be323cfebe2, type: 2}
+  - {fileID: 11400000, guid: 376ceb2d733b05d4e966d7ba199f768a, type: 2}
+  - {fileID: 11400000, guid: e22b4bd57e8fa14478dd8241e2209333, type: 2}
+  - {fileID: 11400000, guid: 74ff7a7535852244496d792516afa856, type: 2}
+  - {fileID: 11400000, guid: f7158cdc1442d1744b88ccf9883ea99f, type: 2}
+  - {fileID: 11400000, guid: 5aeb1d34c7fa75c4e8d9a77e6fa4d664, type: 2}
+  - {fileID: 11400000, guid: 26aad75b34b53c343bb72fba3fc0c874, type: 2}
+  - {fileID: 11400000, guid: 2c2951a1ea23de241903206ac267a224, type: 2}
+  - {fileID: 11400000, guid: bb07ccdbdb39ff145b9672d37964ce4a, type: 2}
+  - {fileID: 11400000, guid: 3f3854fc1c72be5488731637631e5560, type: 2}
+  - {fileID: 11400000, guid: d6a966917879c794eabd15fbaa35dc15, type: 2}
+  - {fileID: 11400000, guid: b4abfd8016c3bbb46a73223bbf643b4b, type: 2}
+  - {fileID: 11400000, guid: 3859cb6c022df504cad5f2df5992ba71, type: 2}
+  - {fileID: 11400000, guid: 98c4e6041fba89944b9ad2931c35905a, type: 2}
+  - {fileID: 11400000, guid: 8516b7c81d47dbb408be5f1622988da3, type: 2}
+  - {fileID: 11400000, guid: 2ff3d5333e8882d44be1049e09fb7c3f, type: 2}
+  Bidding: {fileID: 11400000, guid: b7f500166b72fd443b77c1411c127306, type: 2}
+  Finance:
+    UpfrontFraction: 0.1
+    ProgressFraction: 0.4
+    RetentionFraction: 0.05
+    ProgressPaymentThreshold: 50
+    ProgressPaymentDelayDays: 3
+    FinalPaymentDelayDays: 3
+    WarrantyDays: 28
+    WagePaymentDays: 7
+    MaximumPenaltyFraction: 0.1
+    ProjectOverheadPerWorkHour: 5
+    OfficeCostPerDay: 35
+    EquipmentUsefulLifeHours: 10000
+    LowCashThreshold: 10000
+    BaseAnnualInterestRate: 0.08
+    PoorCreditRatePremium: 0.12
+    CreditLimit: 150000
+    CollateralRequiredFraction: 0.25
+    StartingCreditScore: 700
+    MinimumCreditScore: 400
+    LoanTermMonths: 12
+    InsurancePremium: 250
+    InsuranceCoverageFraction: 0.75
+    InsuranceDeductible: 500
+    TaxRate: 0.2
+    TaxReserveFraction: 0.2
+    InsuranceCadenceDays: 28
+    TaxCadenceDays: 28
+    ProfitableReputation: 2
+    LossReputation: -3
+    OnTimeReputation: 2
+    LateReputation: -3
+    QualityMetReputation: 1
+    QualityMissedReputation: -3
+    DebugContractValue: 1000000
+    DebugCost: 400000
+    DebugProgress: 60
+    DebugPaymentDelayDays: 7
+  Materials:
+  - {fileID: 11400000, guid: 14db623db9cbb4d4bb7c8eaf621c5527, type: 2}
+  - {fileID: 11400000, guid: 185bb7f7c382740478c62571c3c9c6e4, type: 2}
+  - {fileID: 11400000, guid: 20cb0d420d4606b4fb3491ab1414df88, type: 2}
+  - {fileID: 11400000, guid: 3c28764a14050264a9e747d6f8c14369, type: 2}
+  - {fileID: 11400000, guid: 4a50d9330671e16469dbd0c358602b9a, type: 2}
+  - {fileID: 11400000, guid: 5b3dfdc62e80ca740af0e767d6e3aceb, type: 2}
+  - {fileID: 11400000, guid: 6c71abf9d24580b408865fe23057b521, type: 2}
+  - {fileID: 11400000, guid: 7b0481fb387aee8439419574be0a89d5, type: 2}
+  - {fileID: 11400000, guid: 9fa6d6e6cc101074fbf7a469e9910485, type: 2}
+  - {fileID: 11400000, guid: b06465ac485ba3e48a8fbd1cb94dca49, type: 2}
+  - {fileID: 11400000, guid: b4ee67ec2eee46948a858c5f9d8ab8e8, type: 2}
+  - {fileID: 11400000, guid: b51698a758b79bc4ab793b8a59bad2d9, type: 2}
+  - {fileID: 11400000, guid: b5be7b3aa4e7c074b933b831b01c3400, type: 2}
+  - {fileID: 11400000, guid: b65f8745bc98b6e4296efcf597562d2c, type: 2}
+  - {fileID: 11400000, guid: c7ae3ed9be5d00b44a3ec6f66b32ae9c, type: 2}
+  - {fileID: 11400000, guid: d9f3ea6e8f345f54eac7f2c0ab8bbec0, type: 2}
+  - {fileID: 11400000, guid: e145494089a55b54f85bf8f456dcb3ca, type: 2}
+  Suppliers:
+  - {fileID: 11400000, guid: 2d488a3e62076d6479aa4048b40a8058, type: 2}
+  - {fileID: 11400000, guid: 3d04d9d283b08654db4c480d769c97e3, type: 2}
+  - {fileID: 11400000, guid: 569e5bae05a4c89488f946b45355efe2, type: 2}
+  - {fileID: 11400000, guid: 6ab0ee018d35ea04cb72c9122984871e, type: 2}
+  - {fileID: 11400000, guid: 72a7003a70c092c4999b3c252927eade, type: 2}
+  - {fileID: 11400000, guid: 82f682a532d1bfb459d0a3875746866a, type: 2}
+  - {fileID: 11400000, guid: 9efcedad36240ac47a1fd1c799e21e4e, type: 2}
+  - {fileID: 11400000, guid: b9c260075333f9048b7d74715a9395af, type: 2}
+  - {fileID: 11400000, guid: be1bf8208c653d94bac5ac50fd97ef60, type: 2}
+  - {fileID: 11400000, guid: caa693ffeeb5b1844bd954c40f17638c, type: 2}
+  Procurement:
+    MinimumPriceFactor: 0.6
+    MaximumPriceFactor: 1.6
+    ExpeditedTimeFactor: 0.5
+    ExpeditedPremium: 0.25
+    BulkThreshold: 100
+    BulkDiscount: 0.1
+    RelationshipGain: 0.01
+    DelayHours: 24
+  Subcontractors:
+  - {fileID: 11400000, guid: 13acf6402283e7d438a5885a8e1251c5, type: 2}
+  - {fileID: 11400000, guid: 4642098fa65fb9445b26eae60a29af31, type: 2}
+  - {fileID: 11400000, guid: 521e0bae9aea270429b59081b6b98596, type: 2}
+  - {fileID: 11400000, guid: 550acaa99ff6c9540b16ec1699c88211, type: 2}
+  - {fileID: 11400000, guid: 646398728f6852347afdbc1b5a0b8257, type: 2}
+  - {fileID: 11400000, guid: 7120172766dd66f4aae1f2f42a6caf6a, type: 2}
+  - {fileID: 11400000, guid: 73d5f520f0217fa4a85785d04b7008e7, type: 2}
+  - {fileID: 11400000, guid: 7d2b16ea837366542bc400881d2ecf27, type: 2}
+  - {fileID: 11400000, guid: 8567e979ad3bc7c469c42487a5d6fccd, type: 2}
+  - {fileID: 11400000, guid: 9b1489bdb30052c46a8f35a05d6e6650, type: 2}
+  - {fileID: 11400000, guid: c081d36e641b8154c9f1785f4bd633ea, type: 2}
+  - {fileID: 11400000, guid: dee193c69dfae6243abe5281ee5ec824, type: 2}
+  Subcontracting:
+    BaseHourlyRate: 60
+    QuotePriceVariation: 0.1
+    QuoteTimelineVariation: 0.1
+    DelayHours: 24
+  Risks:
+    Weights:
+      SiteDifficulty: 1
+      DeadlineTightness: 1.2
+      SoilConditions: 1
+      Remoteness: 0.6
+      SubcontractorReliability: 1
+      MaterialShortageExposure: 1.2
+      DesignComplexity: 1
+      WeatherVolatility: 0.8
+      CrewExperience: 1
+    MediumThreshold: 0.25
+    HighThreshold: 0.5
+    CriticalThreshold: 0.75
+    WeatherShiftRate: 0.025
+    WeatherDriftStep: 0.2
+    IndoorWeatherExposure: 0.15
+    WeatherMultipliers:
+    - 1
+    - 0.8
+    - 0.55
+    - 0.75
+    - 0.15
+    - 0.4
+    - 0.65
+    IndoorPhaseIds:
+    - electrical
+    - plumbing
+    - hvac
+    - insulation
+    - drywall
+    - flooring
+    - finishes
+    - inspection
+    - completion
+    InspectionPhaseIds:
+    - foundation
+    - framing
+    - electrical
+    - plumbing
+    - hvac
+    - inspection
+    GroundPhaseIds:
+    - excavation
+    - foundation
+    BreakdownRate: 0.002
+    AbsenceRate: 0.001
+    SafetyRate: 0.0005
+    GroundDiscoveryRate: 0.006
+    MinimumRiskFrequency: 0.1
+    RiskFrequencyMultiplier: 2
+    InspectionBaseFailure: 0.01
+    InspectionVulnerabilityWeight: 0.35
+    FatiguePerWorkHour: 0.006
+    RestPerHour: 0.025
+    EquipmentWearPerHour: 0.0008
+    ExperienceReferenceYears: 10
+    AbsenceHours: 8
+    SafetyStopHours: 8
+    GroundStopHours: 12
+    InspectionStopHours: 4
+    InspectionReworkHours: 6
+    InspectionCost: 350
+    SafetyInvestigationCost: 750
+    SafetyInsuranceExcess: 250
+    GroundRemediationCost: 1200
+    SafetyReputationLoss: 2
+    InspectionQualityLoss: 0.03
+    RepairCondition: 0.9
+    TrainingCostPerWorker: 50
+    TrainingImprovement: 0.1
+    SiteDifficultyPenalty: 0.25
+    SoilPenalty: 0.2
+    AccessPenalty: 0.15
+    RemotenessPenalty: 0.1
+    ForecastRiskCostAllowance: 0.15
+    ForecastRiskScheduleAllowance: 0.2
+    MinimumForecastProductivity: 0.1
+    ScheduleWarningHours: 72
+    EquipmentConditionWarning: 0.2
+    FatigueWarning: 0.8
+    BudgetWarningRatio: 0.95
+    CriticalFloatWarningHours: 4
+  Regions:
+  - {fileID: 11400000, guid: 1782d4f50f344294a90e1f3ea0d6aeba, type: 2}
+  - {fileID: 11400000, guid: 3954e91ec58d6d043a33b2d730f4f3c1, type: 2}
+  - {fileID: 11400000, guid: 73db4450c9ea9d246850d93931d7b83e, type: 2}
+  - {fileID: 11400000, guid: ccdc298814c8e8c4fbc3ac262b41cc12, type: 2}
+  Expansion:
+    OfficeSetupCost: 20000
+    OfficeRentPerDay: 150
+    OfficePurchaseCost: 150000
+    OfficeEfficiency: 1
+    HiringCostPerWorker: 1000
+    OfficeProjectCapacity: 3
+    OfficeStaffCapacity: 18
+    OpportunityBatchSize: 3
+    MaximumAvailableOpportunitiesPerRegion: 10
+    RegionalPriceVariation: 0.15
+    WorkerTravelKilometresPerHour: 40
+    TransportCostPerKilometre: 4
+    DeliveryKilometresPerHour: 30
+    RemoteOverheadPerKilometrePerDay: 2
+  Market:
+    UpdateEveryHours: 168
+    CompetitorEveryHours: 72
+    TenderGraceHours: 168
+    MonthsPerSeason: 3
+    OpportunityBaseCount: 2
+    MinimumDemand: 0.35
+    MaximumDemand: 1.8
+    DemandStep: 0.15
+    MeanReversion: 0.08
+    MaterialSensitivity: 0.4
+    WageSensitivity: 0.25
+    EquipmentSensitivity: 0.3
+    InterestSensitivity: 0.025
+    MinimumPriceFactor: 0.65
+    MaximumPriceFactor: 1.65
+    ShortageChance: 0.1
+    MaterialShortagePremium: 0.18
+    LaborShortagePremium: 0.12
+    CompetitorBidChance: 0.75
+    CompetitorDevelopmentChance: 0.3
+    CompetitorFailureChance: 0.08
+    PriceVariation: 0.08
+    PricePressure: 0.15
+    InitialEmployees: 8
+    InitialEquipment: 2
+    MaximumScale: 5
+    WinsForGrowth: 2
+    LossesForShrink: 3
+    ReputationPerWin: 1
+    ReputationPerLoss: 0.2
+    SeasonalDemand:
+    - 1.1
+    - 1.2
+    - 1
+    - 0.7
+    SeasonalWeatherFrequency:
+    - 1
+    - 0.65
+    - 1.2
+    - 1.6
+  ResearchDefinitions:
+  - {fileID: 11400000, guid: 80dda292447248b4fa5d1dc3d62b53b6, type: 2}
+  - {fileID: 11400000, guid: 8316074f4e41ba642be081182dc15825, type: 2}
+  - {fileID: 11400000, guid: 3292a0913f819f743b8b3dda27b82d20, type: 2}
+  - {fileID: 11400000, guid: 67889ef1acf1b4b41b1df61033947962, type: 2}
+  - {fileID: 11400000, guid: d02614ac52df74c43b9c1f9db2aed68a, type: 2}
+  - {fileID: 11400000, guid: 63edfb7610e34b74d92314e2dd056ca6, type: 2}
+  - {fileID: 11400000, guid: a189f07db5271994688b20c69f6231a8, type: 2}
+  - {fileID: 11400000, guid: 2e6bfa212a9df5f4f9b42e2be56960b9, type: 2}
+  Research:
+    CompanyLevel: 1
+    AutomationEveryHours: 6
+    BaseEstimationAccuracy: 0.7
+    CashReserve: 5000
+    DailyAutomationBudget: 5000
+  Settings:
+    OfficeName: Small Office
+    OfficeLocation: Local region
+    FuelPricePerLitre: 1.65
+    DailyMaterialVolatility: 0.03
+    CompletionReputationReward: 1
+    DeadlineWarningHours: 48
+    Capabilities:
+      Reputation: 0
+      Experience: 0.35
+      Quality: 0.6
+      ClientRelationship: 0.3
+      Certifications: 0.6
+      MarketFit: 0.5
+    Materials:
+    - Id: concrete
+      Name: Concrete
+      Unit: "m\xB3"
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 120
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: cement
+      Name: Cement
+      Unit: bag
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 8
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: sand
+      Name: Sand
+      Unit: tonne
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 45
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: gravel
+      Name: Gravel
+      Unit: tonne
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 40
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: steel
+      Name: Steel
+      Unit: tonne
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 850
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: timber
+      Name: Lumber
+      Unit: m
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 12
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: bricks
+      Name: Bricks
+      Unit: unit
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 1.2
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: glass
+      Name: Glass
+      Unit: "m\xB2"
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 60
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: drywall
+      Name: Drywall
+      Unit: sheet
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 18
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: insulation
+      Name: Insulation
+      Unit: "m\xB2"
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 10
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: roofing
+      Name: Roofing
+      Unit: "m\xB2"
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 24
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: pipe
+      Name: Pipes
+      Unit: m
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 8
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: cable
+      Name: Electrical cable
+      Unit: m
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 3
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: fixtures
+      Name: Fixtures
+      Unit: unit
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 75
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: paint
+      Name: Paint
+      Unit: litre
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 12
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: flooring
+      Name: Flooring
+      Unit: "m\xB2"
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 30
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
+    - Id: site-supplies
+      Name: Site supplies
+      Unit: kit
+      Supplier: Northbridge Building Supply
+      StorageRequirement: Covered company storage
+      Price: 25
+      Availability: 10000
+      Quality: 0.8
+      LeadHours: 4
